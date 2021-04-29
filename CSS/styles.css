@@ -16,12 +16,13 @@ body {
   text-decoration: none;
   font-size: 14px; **/
   /**Font awesome**/
+  padding: 10px;
+  width: 20px;
   border-radius: 15%;
-  padding: 15px;
-  width: 15px;
   text-align: center;
   text-decoration: none;
   margin: 10px 2px;
+
 }
 
 .fa-deviantart {
@@ -75,8 +76,8 @@ hr {
 .middle-container {
   background-color: #9dbeb9;
   font-size: 18px;
-  padding-right: 18%;
-  padding-left: 18%;
+  padding-right: 15%;
+  padding-left: 15%;
 }
 
 .bottom-container {
@@ -122,6 +123,7 @@ hr {
 .contact-me {
   padding: 10px;
 }
+
 
 /**Effects**/
 .mountain-1:hover {
