@@ -90,23 +90,24 @@ hr {
 .top-sun {
   position: absolute;
   top: 20px;
-  left: 400px;
+  right: 60%;
 }
 
 .top-cloud {
   position: absolute;
   top: 40px;
-  right: 400px;
+  left: 60%;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  right: 60%;
   bottom: 300px;
 }
 
 .mountain-1 {
   position: relative;
+  padding: 0;
 }
 
 .profile-me {
