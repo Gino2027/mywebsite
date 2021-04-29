@@ -16,11 +16,12 @@ body {
   text-decoration: none;
   font-size: 14px; **/
   /**Font awesome**/
-  padding: 10px;
+  border-radius: 15%;
+  padding: 15px;
   width: 15px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 10px 2px;
 }
 
 .fa-deviantart {
