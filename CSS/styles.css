@@ -60,7 +60,7 @@ hr {
   /*Border Style properties*/
   border-style: none;
   border-top-style: dotted;
-  border-color: #feffde;
+  border-color: #1e6f5c;
   border-width: 5px;
   width: 20%;
 }
@@ -123,4 +123,3 @@ h1:hover {
   border-bottom: 0;
   padding-bottom: .3em;
 }
-
