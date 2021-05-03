@@ -85,6 +85,10 @@ hr {
   color: #8ab6d6;
 }
 
+.bottom-container p {
+  margin: 0;
+}
+
 .pro {
   text-decoration: underline;
 }
