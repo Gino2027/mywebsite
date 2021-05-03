@@ -120,6 +120,24 @@ hr {
   padding-top: 15px;
 }
 
+.skill-grap {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.skill-ghost {
+  animation-name: skill-ghost;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  right: 55%;
+}
+
 .contact-me {
   padding: 10px;
 }
@@ -148,4 +166,16 @@ hr {
 				-webkit-transform: rotate(359deg);
 		}
 }
+
+/**Ghost Effect**/
+.skill-ghost {
+     animation-name: skill-ghost;
+     animation-timing-function: ease;
+ }
+
+ @keyframes skill-ghost {
+     0%   { transform: translateY(0); }
+     50%  { transform: translateY(-20px); } /**Bounce effect**/
+     100% { transform: translateY(0); }
+ }
 
