@@ -176,8 +176,18 @@ hr {
 }
 
 /**Ghost Effect**/
-.skill-ghost .top-cloud .bottom-cloud {
-     animation-name: skill-ghost top-cloud bottom-cloud ;
+.skill-ghost {
+     animation-name: skill-ghost ;
+     animation-timing-function: ease;
+ }
+
+.top-cloud {
+     animation-name: top-cloud;
+     animation-timing-function: ease;
+ }
+
+.bottom-cloud {
+     animation-name: bottom-cloud ;
      animation-timing-function: ease;
  }
 
